@@ -1,0 +1,269 @@
+/*global styles*/
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+
+.round-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/*end of global styls*/
+
+/*header styles*/
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+header a{
+    text-decoration: none;
+    color: #6699cc;
+}
+header a:active{
+    color: brown;
+}
+header a:hover{
+    color: brown;
+}
+#red-link{
+    color: brown;
+}
+header li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#logo{
+    float: left;
+}
+#main-nav{
+    float: right;
+}
+
+/*end of header styles*/
+
+/*showcase styles*/
+
+#showcase{
+    background-image: url(imgs/1-bg.jpg);
+    background-position-x: 1rem;
+    background-position-y: -5.5cm;
+    color: white;
+    margin-bottom: 0px;
+    height: 400px;
+}
+.welcome{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px;
+    width: 40%;
+    height: 8cm;
+    border-radius: 5px;
+    margin-left: 3cm;
+    margin-top: 50px;
+    padding: 10px;
+   
+    
+}
+#show-red{
+    color: brown;
+    text-transform: uppercase;
+    font-size: medium;
+}
+#show-welcome{
+    text-transform: capitalize;
+    font-size: 35px;
+}
+#show-btn{
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 18px;
+    color: white;
+    width: 4cm;
+    height: 1cm;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+#show-btn:hover{
+    background-color: orangered;
+}
+
+/*end of showcase styles*/
+
+/*Brief history styles*/
+
+#history{
+    background-color: whitesmoke;
+    margin: 0px 0px 15px 0px;
+}
+.histo{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    opacity: 0.7;
+}
+.histo-details{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*end of brief history styles*/
+
+/*menu styles*/
+
+#menu{
+    background-color: white;
+    text-align: center;
+    height: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box img{
+    width: 100%;
+    height:180px ;
+}
+.box{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 10cm;
+    float: left;
+    box-sizing: border-box;
+    margin: 0px 5px 0px 5px;
+    border-radius: 10px;
+    
+}
+#menu h3{
+    color: gray;
+}
+#menu-h{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*end of menu styles*/
+
+/*testmonial styles*/
+
+#testmony{
+    background-image: url(imgs/bg-3.jpg);
+    background-attachment: fixed;
+    background-position-x: 1cm ;
+    background-position-y: -7cm;
+    height: 450px;
+    margin-top: 100px;
+}
+.testmo{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+/*end of testmonial styles*/
+
+/*order styles*/
+
+#order{
+    background-color: whitesmoke;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.order-box{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 70%;
+    margin: 5px auto;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+.order-box img{
+    float: left;
+}
+.p-div{
+    float: right;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.order-par{
+    width: 50%;
+    margin-left: 0px;
+}
+.order-header{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.buy-now{
+    background-color: rgb(179, 15, 15);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px dashed  rgb(179, 15, 15);
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 05px;
+    margin-bottom: 20px;
+}
+.price{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.price-value{
+    font-size: 18px;
+}
+
+
+
+/*end of order styles*/
+
+/*footer styles*/
+
+footer{
+    background-color: rgb(3, 87, 139);
+    color: white;
+    height: 70px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.copyright{
+    float: right;
+    margin-right:300px;
+    margin-top: 10px;
+}
+.footer-nav{
+    float: left;
+    margin-left:300px;
+    margin-top: 10px;
+}
+
+/*footer styles*/
