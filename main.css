@@ -15,8 +15,8 @@ ul{
 }
 
 .round-img{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
 }
 
@@ -34,9 +34,11 @@ header a{
 }
 header a:active{
     color: brown;
+     
 }
 header a:hover{
     color: brown;
+    font-size: 17px;
 }
 #red-link{
     color: brown;
@@ -59,14 +61,21 @@ header li{
 
 #showcase{
     background-image: url(imgs/1-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position-x: 1rem;
     background-position-y: -5.5cm;
     color: white;
     margin-bottom: 0px;
-    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .welcome{
     background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
     padding: 10px;
     width: 40%;
     height: 8cm;
@@ -114,7 +123,7 @@ header li{
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 .histo-details{
     font-size: 25px;
@@ -135,9 +144,11 @@ header li{
 .box img{
     width: 100%;
     height:180px ;
+    margin: 0px;
 }
 .box{
     background-color: whitesmoke;
+    text-align: center;
     width: 30%;
     height: 10cm;
     float: left;
@@ -161,6 +172,7 @@ header li{
 #testmony{
     background-image: url(imgs/bg-3.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position-x: 1cm ;
     background-position-y: -7cm;
     height: 450px;
@@ -168,14 +180,21 @@ header li{
 }
 .testmo{
     background-color: white;
-    width: 60%;
+    line-height: 1.35em;
+    width: 50%;
     margin: auto;
     margin-top: 50px;
     border-radius: 10px;
-    box-sizing: border-box;
+    opacity: 0.75;
     padding: 30px;
-    opacity: 0.5;
     text-align: center;
+}
+.testmo-image{
+    margin: 0px;
+}
+.testmo-name{
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /*end of testmonial styles*/
@@ -189,6 +208,7 @@ header li{
 }
 .order-box{
     background-color: whitesmoke;
+    text-align: left;
     display: flex;
     justify-content: space-between;
     font-size: 15px;
@@ -196,35 +216,30 @@ header li{
     margin: 5px auto;
     border: 1px lightgray solid;
     border-radius: 5px;
-    padding: 5px;
-}
-.order-box img{
-    float: left;
+    padding: 10px;
 }
 .p-div{
     float: right;
     margin-left: 150px;
-    margin-top: 30px;
-}
-.order-par{
-    width: 50%;
-    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
 }
 .order-header{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 400;
 }
 .buy-now{
     background-color: rgb(179, 15, 15);
     color: white;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px dashed  rgb(179, 15, 15);
     border-radius: 5px;
     width: 80px;
     height: 30px;
     padding: 5px;
-    margin-top: 05px;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 .price{
@@ -267,3 +282,46 @@ footer li{
 }
 
 /*footer styles*/
+
+/*media query styles*/
+
+@media(max-width: 765px){
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+header li{
+    margin: 0px 0px;
+}
+/* header li{
+    display: flex;
+    flex-direction: column;
+} */
+
+/*Showcase*/
+
+.welcome{
+    font-size: 14px;
+    width: 70%;
+    height: 250px;
+    margin: 10px auto;
+}
+
+#show-red{
+    font-size: 15px;
+}
+#show-welcome{
+    font-size: 25px;
+}
+#show-btn{
+    font-size: 18px;
+    width: 4cm;
+    height: 1cm;
+    
+}
+
+
+}
+
+/*end of media query styles*/
