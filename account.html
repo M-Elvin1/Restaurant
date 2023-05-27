@@ -8,7 +8,7 @@
      <link rel="stylesheet" href="main.css">
      <link rel="icon" href="./imgs/favicon.png">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-     <title>Foody | Restaurant</title>
+     <title>Foody | Restaurant|Account</title>
     </head>
 
     <body>
@@ -16,19 +16,19 @@
             <div class="container header">
                 <div id="logo">
                     <img src="imgs/logo.png" alt="logo">
-                    <div class="search">
+                    <div>
                         <input type="search" placeholder=" Search Here" class="srch-box">
-                        <!-- <button class="search-btn">Search</button> -->
+        
                     </div>
-                   
                 </div>
+               
 
                 <div id="main-nav" >
                     <ul id="nav-bar">
-                        <li><a class="red-link" href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Order</a></li>
-                        <li><a href="account.html">Account</a></li>
+                        <li><a href="account.html" class="red-link">Account</a></li>
                         <li><i id="close" class="fa fa-times "></i></li>
                     </ul>
                     
@@ -41,22 +41,90 @@
 
         
         <section id="showcase">
-            <div class="container">
-                <div class="welcome">
+            <div class="container showcase">
+
+                <div class="row">
+                    <divclass="col-2">
+                        <div class="welcome acc">
                     
-                    <h1>
-                        <span id="show-red">
-                            For your delicancies.
-                        </span>
-                        <br> 
-                       <span id="show-welcome">
-                        welcome to <br> foody dinner restaurant
-                       </span>
-                    </h1>
-                    <p>
-                        Our meals are equisite and tasty Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.
-                    </p>
-                    <button id="show-btn">Reserve a table</button>
+                            <h1>
+                                <span id="show-red">
+                                    For your delicancies.
+                                </span>
+                                <br> 
+                               <span id="show-welcome">
+                                welcome to <br> foody dinner restaurant
+                               </span>
+                            </h1>
+                            <p>
+                                Our meals are equisite and tasty Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit.
+                            </p>
+                            <button id="show-btn">Reserve a table</button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-title">
+                                <h3 id="login" class="title-content title-border">Login</h3>
+                                <h3 id="register" class="title-content show">Register</h3>
+                            </div>
+                            <div id="login-form" class="login-form show">
+                                <form action="elvinmugisha@gmail.com" method="POST">
+                                    <div class="form-field">
+                                        <label class="lebel">Email
+                                            <input type="email" placeholder="Enter Your Email" required>
+                                        </label>
+                                    </div>
+                                    <div class="form-field">
+                                        <label  class="lebel">Password
+                                            <input type="password" placeholder="Type Your Password" required >
+                                        </label>
+                                    </div>
+                                    <a href="#"><p>Forgot password?</p></a>
+                                    <lebel>
+                                        <input type="checkbox"> Remember me
+                                    </lebel>
+                                    <button class="login-btn" type="submit">Login</button>
+                                </form>
+                            </div>
+                            <div id="reg-form" class="register-form">
+                                <form action="elvinmugisha@gmail.com" method="POST">
+                                   <div class="form-field">
+                                    <lebel>
+                                        Email
+                                        <input type="email" placeholder="Enter Your Email" required>
+                                    </lebel>
+                                   </div>
+                                   <div class="form-field">
+                                    <lebel>
+                                        Password
+                                        <input type="password" placeholder="Enter Your Password" required>
+                                    </lebel>
+                                   </div>
+                                   <div class="form-field">
+                                    <lebel>
+                                        Confirm Password
+                                        <input type="password" placeholder="Re-type Password" required>
+                                    </lebel>
+                                   </div>
+                                   <button class="login-btn">Register</button>
+                                   
+                                </form>
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+
+                
+
+
+                
+               
+                
+                    
+
                 </div>
             </div>
         </section>
@@ -201,7 +269,7 @@
             <div class="container footer">
                 <nav class="footer-nav">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Order</a></li>
                     </ul>
